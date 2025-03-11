@@ -12,7 +12,6 @@ DENSITY = 0.02
 WIDTH = shutil.get_terminal_size()[0]
 WIDTH -= 1
 print("Get bah'd!")
-print("Just press ctrl+c to end this nightmare.")
 time.sleep(2)
 
 try:
@@ -34,6 +33,3 @@ try:
 		print("BAH")
 	sys.stdout.flush()
 	time.sleep(PAUSE)
-except KeyboardInterrupt:
-	print("Get bah'd.")
-	sys.exit()
